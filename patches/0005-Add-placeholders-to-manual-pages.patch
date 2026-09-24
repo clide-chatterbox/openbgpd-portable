@@ -1,4 +1,4 @@
-From e64c8a4d0c2e51543981bc1a12cbf8aa0c9ba007 Mon Sep 17 00:00:00 2001
+From 618d556255697bb662aa4ac595fb5c61f4f98d81 Mon Sep 17 00:00:00 2001
 From: Claudio Jeker <claudio@openbsd.org>
 Date: Tue, 5 May 2020 09:13:19 +0200
 Subject: [PATCH 5/7] Add placeholders to manual pages
@@ -11,7 +11,7 @@ Subject: [PATCH 5/7] Add placeholders to manual pages
  4 files changed, 18 insertions(+), 20 deletions(-)
 
 diff --git src/usr.sbin/bgpctl/bgpctl.8 src/usr.sbin/bgpctl/bgpctl.8
-index a1bd363674..576c05e221 100644
+index ba78603ba7..8255c38040 100644
 --- src/usr.sbin/bgpctl/bgpctl.8
 +++ src/usr.sbin/bgpctl/bgpctl.8
 @@ -49,7 +49,7 @@ Use
@@ -40,7 +40,7 @@ index a1bd363674..576c05e221 100644
  .Xr bgpd 8
  control socket
 diff --git src/usr.sbin/bgpd/bgpd.8 src/usr.sbin/bgpd/bgpd.8
-index d7d4f09992..fb8150cbbe 100644
+index 017e028ee4..dc39359e9c 100644
 --- src/usr.sbin/bgpd/bgpd.8
 +++ src/usr.sbin/bgpd/bgpd.8
 @@ -197,7 +197,7 @@ Use
@@ -69,7 +69,7 @@ index d7d4f09992..fb8150cbbe 100644
  .Nm
  control socket, where
 diff --git src/usr.sbin/bgpd/bgpd.conf.5 src/usr.sbin/bgpd/bgpd.conf.5
-index 80cfaab168..f84d61acb4 100644
+index fe55d2b580..3bac29dac2 100644
 --- src/usr.sbin/bgpd/bgpd.conf.5
 +++ src/usr.sbin/bgpd/bgpd.conf.5
 @@ -394,7 +394,7 @@ If
@@ -81,7 +81,7 @@ index 80cfaab168..f84d61acb4 100644
  is used where
  .Ar <rdomain>
  is the routing domain in which
-@@ -2398,12 +2398,10 @@ For prefixes with equally long paths, the prefix with the larger weight
+@@ -2399,12 +2399,10 @@ For prefixes with equally long paths, the prefix with the larger weight
  is selected.
  .El
  .Sh FILES

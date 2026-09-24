@@ -1,4 +1,4 @@
-From f099655e942de7e468a9ee6dbad8dd8c1bc7a6bb Mon Sep 17 00:00:00 2001
+From a14f4749eb9e0ec008ce7c72835ace67177250f5 Mon Sep 17 00:00:00 2001
 From: Claudio Jeker <claudio@openbsd.org>
 Date: Wed, 6 Jul 2022 12:27:27 +0200
 Subject: [PATCH 6/7] Add compat fixes to bgplgd

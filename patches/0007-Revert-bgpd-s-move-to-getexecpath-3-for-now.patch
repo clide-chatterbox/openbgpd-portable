@@ -1,4 +1,4 @@
-From f228e8c14646a0570fee0b9c0e46e14a207edf78 Mon Sep 17 00:00:00 2001
+From add381d1af15d55740a1465054fddbc54ff1d64e Mon Sep 17 00:00:00 2001
 From: Claudio Jeker <claudio@openbsd.org>
 Date: Fri, 11 Sep 2026 20:38:39 +0200
 Subject: [PATCH 7/7] Revert bgpd's move to getexecpath(3) for now.
